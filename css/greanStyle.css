@@ -1,0 +1,82 @@
+body {
+	background-color: #69bf64;
+}
+
+.grean { 
+	font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
+	font-size: 5em;
+	color: darkolivegreen;
+}
+
+.abouttext{
+	font-family: Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif; 
+	color: white;
+	  margin-bottom: 10%;
+	  margin-right: 20%;
+	  margin-left: 20%;
+}
+
+a {
+  color: white;
+}
+
+a:hover{
+	color: darkolivegreen;
+}
+
+/*-----------------------------------------------------------------*/
+
+#contacticons{
+	max-width: 40px;
+	max-height: 40px;
+}
+
+/*-----------------------------------------------------------------*/
+
+.homebutton {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+	font-size:20px;
+	padding:8px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+}
+.homebutton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.homebutton:active {
+	position:relative;
+	top:1px;
+}
+
+/*-----------------------------------------------------------------*/
+
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px darkolivegreen;
+	background-color:darkolivegreen;
+	border-radius:4px;
+	border:1px solid #69bf64;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial Rounded MT Bold,Helvetica Rounded,Arial,sans-serif;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#69bf64;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
